@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>background image</title>
+    <style>
+        .container {
+
+            width: 95%;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            height: auto;
+            justify-content: center;
+            margin: auto;
+        }
+
+        .container>div {
+            width: 23.5%;
+            height: auto;
+        }
+
+        .btn {
+            background-color: white;
+            color: red;
+            font-size: 20px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            text-align: center;
+            font-weight: bold;
+            width: 90%;
+            height: 10%;
+            margin-left: 4.5%;
+            opacity: 0.5;
+            padding: 15px 25px;
+            outline: none;
+            box-shadow: 0 3px 0 3px #999;
+            opacity: 1;
+            transition: 0.9s;
+
+            position: absolute;
+            top: 85%;
+            left: 1%;
+        }
+
+        .btn:hover {
+            background-color: green;
+            opacity: 2
+        }
+
+        .btn:active {
+            background-color: #3e8e41;
+            box-shadow: 0 5px #666;
+            transform: translateY(4px);
+        }
+
+        .sam {
+            position: relative;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="sam">
+            <a href="">
+                <img width="100%" height=auto;
+                    src="https://lmsin.net/cdn-cgi/image/w=500,q=60,fit=cover/https://70415bb9924dca896de0-34a37044c62e41b40b39fcedad8af927.lmsin.net/LS-Fest/LS-new/pre-landing-Women-03Sep2020.jpg"
+                    alt="women">
+            </a>
+            <button class="btn" id="women">WOMEN</button>
+        </div>
+        <div class="sam">
+            <a href="">
+                <img width="100%" height=auto;
+                    src="https://lmsin.net/cdn-cgi/image/w=500,q=60,fit=cover/https://70415bb9924dca896de0-34a37044c62e41b40b39fcedad8af927.lmsin.net/LS-Fest/LS-new/pre-landing-Men-03Sep2020.jpg"
+                    alt="Men">
+            </a>
+            <button class="btn" id="men">MEN</button>
+        </div>
+        <div class="sam">
+            <a href="">
+                <img width="100%" height=auto;
+                    src="https://lmsin.net/cdn-cgi/image/w=500,q=60,fit=cover/https://70415bb9924dca896de0-34a37044c62e41b40b39fcedad8af927.lmsin.net/LS-Fest/LS-new/pre-landing-Kids-03Sep2020.jpg"
+                    alt="KId">
+            </a>
+            <button class="btn" id="kid">KIDS</button>
+        </div>
+        <div class="sam">
+            <a href="">
+                <img width="100%" height=auto;
+                    src="https://lmsin.net/cdn-cgi/image/w=500,q=60,fit=cover/https://70415bb9924dca896de0-34a37044c62e41b40b39fcedad8af927.lmsin.net/LS-Fest/LS-new/pre-landing-Shoesandbags-03Sep2020.jpg"
+                    alt="shoes&Bags">
+            </a>
+            <button class="btn" id="shoe">SHOES & BAGS</button>
+        </div>
+    </div>
+</body>
+
+</html>
