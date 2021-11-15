@@ -11,3 +11,4 @@ document.getElementById("btn").addEventListener("click", function () {
 document.getElementById("menButton").addEventListener("click", function () {
   window.location.href = "menPage.html";
 });
+// this part is done by nikhil
