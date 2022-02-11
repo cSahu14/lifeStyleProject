@@ -1,16 +1,16 @@
 # lifeStyleProject
 
 
-masai construct week Unit 2
+## masai construct week Unit 2
 
-Technologies Used
+# Technologies Used
 HTML and CSS
 JavaScript
 
-Tools
+# Tools
 VS Code
 Github
-functionalities
+# Functionalities
 Signup and Login
 Sort items by there category
 Add items into the cart
