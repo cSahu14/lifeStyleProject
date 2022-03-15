@@ -43,4 +43,4 @@ checkout
 
 #### Nikhil [GitHub](https://github.com/NikhilTiwari29)
 
-#### Vinit <a href = "https://github.com/vinitkr567"><span> [GitHub]</span>  </a> 
+#### Vinit <a href = "https://github.com/vinitkr567"><span> GitHub</span>  </a> 
