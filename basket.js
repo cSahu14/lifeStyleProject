@@ -1,3 +1,4 @@
+//created by vinit
 var product = JSON.parse(localStorage.getItem("cartStorageData"));
 //console.log(product);
 var sum = 0;
